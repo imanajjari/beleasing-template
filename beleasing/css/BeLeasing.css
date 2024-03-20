@@ -199,6 +199,7 @@ a {
 }
 margin-bottom: 20px;
 }
+
 @media (min-width:760px ) {
     /*  footer  */
     .footer_container{
@@ -207,7 +208,6 @@ margin-bottom: 20px;
         justify-content: space-around;
     }
     /*  end footer  */
-}
 }
 @media (min-width:1240px ) {
 /*  navbar  */
