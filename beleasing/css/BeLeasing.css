@@ -7,6 +7,8 @@
     --bg-navbar: black;
     --bg-footer: #EFEDF0;
     --bg-nav-onclick: #802e8f;
+
+    --ba-leasing:#f4f3f5;
     /*font color*/
     --color-navbar: #FFFFFF;
     --font-color-text: #012b55;
@@ -73,7 +75,49 @@ a{
 
 
 
-
+/*Car leasing*/
+.main_container{
+padding: 12px 12px;
+}
+.car-leasing{
+    background: var(--ba-leasing);
+    padding: 80px 12px;
+}
+.title--car-leasing{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.title--car-leasing p{
+    font-size: 1rem;
+    color: #00aab1;
+}
+.title--car-leasing h1{
+    font-size: var(--font-size-x);
+    padding-bottom: 12px;
+    color: black;
+    border-bottom: 1.5px solid rgba(117, 117, 117, 0.12);
+}
+.list--car-leasing{
+    padding-top: 24px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.div-img--leasing{
+    width: 100%;
+}
+.div-img--leasing img{
+    width: 100%;
+    padding-top: 40px;
+}
+.title--leasing{
+    font-size: var(--font-size-m);
+    padding: 4px 50px;
+}
+.price--leasing{
+    font-size: var(--font-size-m);
+    padding: 4px 50px;
+}
+/* end Car leasing*/
 /* footer */
 .footer {
     width: 100%;
@@ -201,6 +245,27 @@ margin-bottom: 20px;
 }
 
 @media (min-width:760px ) {
+    /*  car-leasing  */
+    .car-leasing{
+        padding: 80px 80px;
+    }
+    .title--car-leasing{
+        max-width: none;
+    }
+    .responsive-leasing--container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .div-responsive--leasing{
+        display: flex;
+
+    }
+    .list--car-leasing{
+        padding:12px 12px ;
+    }
+    /*  end  car-leasing  */
     /*  footer  */
     .footer_container{
         width: 100%;
@@ -244,4 +309,9 @@ margin-bottom: 20px;
         background: var(--bg-nav-onclick);
     }
 /*  end navbar  */
+    /*  car-leasing  */
+    .car-leasing{
+        padding: 80px 140px;
+    }
+    /*  end  car-leasing  */
 }
