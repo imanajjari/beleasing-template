@@ -69,16 +69,141 @@ a{
     padding-bottom: 24px;
 }
 /* end navbar */
-
-
-
-
-
-
-/*Car leasing*/
+/* for all page */
 .main_container{
-padding: 12px 12px;
+    width: 100%;
 }
+.black-button{
+    border: none;
+    color: white;
+    background: black;
+    width: 100px;
+    height: 45px;
+}
+.pepper-button{
+    border: none;
+    color: white;
+    background: #802e8f ;
+    width: 384px;
+    height: 45px;
+}
+/* end for all */
+/* about-us */
+.div-title--container{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f2f1f4;
+}
+.div-title--about{
+    padding: 12px 24px;
+    max-width: 500px;
+}
+.div-title--about p{
+    font-size: 1rem;
+    color: #00aab1;
+}
+.div-title--about h1{
+    font-size: var(--font-size-l);
+    padding-bottom: 12px;
+    color: black;
+}
+.h1-lrem h1{
+    font-size: var(--font-size-s);
+    padding: 10px;
+}
+.p-nrem p{
+    font-size: 1rem;
+    color: black;
+    padding: 10px;
+}
+.div-title--about a{
+    font-size: 1rem;
+    color: #802e8f;
+}
+
+.div-cartabuot--container{
+    padding: 80px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartabuot--container{
+    padding: 12px;
+}
+.cartabuot-img{
+    width: 100%;
+}
+.cartabuot-h2{
+    font-size: var(--font-size-s);
+    padding: 12px 0;
+}
+.cartabuot-p{
+    font-size: 1rem;
+    padding: 12px 0;
+    padding-bottom: 24px;
+}
+.div-title--description{
+    padding: 80px 24px;
+    width: 100%;
+}
+.div-title--description h1{
+    width: 80%;
+}
+.bg-description{
+    background-image: url('./../images/about-os/leasing-section-bg-partial.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.div-cat--description{
+    width: 90%;
+}
+.car-description{
+    padding: 12px 0;
+}
+.img-description{
+    padding: 4px 0;
+}
+.p-description--bold{
+font-size: var(--font-size-s);
+    color: black;
+    padding: 4px 0;
+}
+.p-description{
+    font-size: 0.8rem;
+    color: black;
+    padding: 4px;
+}
+.div-cartabuot{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-cartabuot-r h1{
+    font-size: var(--font-size-l);
+    padding-bottom: 24px;
+}
+.div-cartabuot-r h2{
+    font-size: var(--font-size-s);
+    padding-bottom: 24px;
+}
+.div-cartabuot-r p{
+    font-size: 0.8rem;
+    padding-bottom: 24px;
+}
+.div-cartabuot-l img{
+    width: 100%;
+}
+.div-cartabuot--responsive{
+    padding-bottom: 24px;
+}
+
+/* end about-us */
+/*Car leasing*/
+
 .car-leasing{
     background: var(--ba-leasing);
     padding: 80px 12px;
@@ -266,6 +391,48 @@ margin-bottom: 20px;
         padding:12px 12px ;
     }
     /*  end  car-leasing  */
+    /* about us */
+    .div-title--container{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .div-title--about {
+        width: 40%;
+    }
+    .div-title--about h1{
+    font-size: var(--font-size-x);
+    }
+    .div-cartabuot--container{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .cartabuot--container{
+        padding: 80px 32px;
+    }
+    .div-title--description h1{
+        font-size: var(--font-size-x);
+        width: 60%;
+    }
+    .div-cat--description{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 40px;
+    }
+    .div-cartabuot--responsive{
+        display: flex;
+        justify-content: space-around;
+    }
+    .div-cartabuot-r {
+        width: 40%;
+    }
+    .div-cartabuot-l {
+        width: 40%;
+    }
+    .div-cartabuot-r h1{
+        font-size: var(--font-size-x);
+    }
+    /* end about us*/
     /*  footer  */
     .footer_container{
         width: 100%;
@@ -308,7 +475,45 @@ margin-bottom: 20px;
     .nav_li:hover{
         background: var(--bg-nav-onclick);
     }
-/*  end navbar  */
+    /*  end navbar  */
+    /* about us */
+    .div-title--about h1{
+        font-size: 2.5rem;
+    }
+    .div-title--about {
+        width: 40%;
+        padding: 80px 24px;
+    }
+    .div-cartabuot--container{
+        justify-content: center;
+    }
+    .cartabuot--container{
+        max-width: 600px;
+    }
+    .div-title--description{
+        width: 75%;
+    }
+    .div-title--description h1{
+        font-size: 3rem;
+        width: 50%;
+    }
+
+    .div-cartabuot--responsive{
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 44px;
+    }
+    .div-cartabuot-r {
+        width: 40%;
+    }
+    .div-cartabuot-l {
+        width: 45%;
+    }
+    .div-cartabuot-r h1{
+        font-size: 3rem;
+    }
+    /* end about us*/
     /*  car-leasing  */
     .car-leasing{
         padding: 80px 140px;
